@@ -7,7 +7,7 @@ help you quickly start a puer es6 webpack project
 ## Quick Start
 ```
 $ git clone https://github.com/leeson8888/ooowin-cli-webpack-quickstart.git
-$ cd 
+$ cd ooowin-cli-webpack-quickstart
 $ npm install
 $ npm run dev
 ````
