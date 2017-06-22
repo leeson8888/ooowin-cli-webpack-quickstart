@@ -1,20 +1,13 @@
 # A pure webpack quickstart template for ooowin-cli
-This template can help you quickly start a webpack project
+help you quickly start a puer es6 webpack project
 
-## What to use it for?
-If you want to start a quick ES6 project, if you want to start a Webpack project quickly, then you should not hesitate to use it
 
-## Installation
-
-```
-$ npm install ooowin-cli -g
-```
 
 
 ## Quick Start
 ```
-$ ooowin init webpack my-project
-$ cd my-project
+$ git clone https://github.com/leeson8888/ooowin-cli-webpack-quickstart.git
+$ cd 
 $ npm install
 $ npm run dev
 ````
@@ -29,3 +22,8 @@ In build
 ```
 $ npm run build
 ```
+
+## TODO List
+
+* add npm install ooowin-cli -g
+* add multipage
