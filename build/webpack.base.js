@@ -28,8 +28,8 @@ module.exports = {
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['es2015'],
-                    plugins: ['transform-runtime']
+                    presets: ['env']
+                   // plugins: ['transform-runtime']
                 }
             }
 
@@ -39,7 +39,16 @@ module.exports = {
                 fallback: "style-loader",
                 use: "css-loader"
             })
-        }, {
+        },,{
+            test: /\.scss$/,
+            use: [{
+                loader: "style-loader" // creates style nodes from JS strings 
+            }, {
+                loader: "css-loader" // translates CSS into CommonJS 
+            }, {
+                loader: "sass-loader" // compiles Sass to CSS 
+            }]
+        },{
             test: /\.html$/,
             use: {
                 loader: 'html-loader',
